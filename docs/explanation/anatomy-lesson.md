@@ -58,7 +58,7 @@ You can use this client anywhere you need to, such as:
 The Lightbus worker is a long running process started using the `lightbus run` console command. 
 This process serves two purposes:
 
-* Listens for events and fires any executes any listeners you have created.
+* Listens for events and executes any listeners you have created.
 * Respond to incoming remote procedure calls for the service's registered APIs.
 
 This process imports your bus module (see the [module loading configuration] reference) 
